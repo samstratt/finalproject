@@ -4,12 +4,15 @@
   margin: 0;
   padding: 0;
   border: 0;
+  background-color: #080001;
+  color: #FFFCFC;
 }
 
 h1, h2, ul a{
   font-family: "forma-djr-micro", "sans-serif";
   font-weight: 700;
   font-style: normal;
+  color: #FFFCFC;
 }
 
 p{
@@ -18,13 +21,22 @@ p{
   font-style: normal;
 }
 
+ul a{
+  text-decoration: none;
+  
+}
+
 
 /*------------------INDEX ONLY STYLING-----------------*/
+
+
 
 .home-header{
   font-family: "octin-stencil", "sans-serif";
   font-weight: 700;
   font-style: normal;
+  font-size: 150px;
+  line-height: 150px;
 }
 
 
