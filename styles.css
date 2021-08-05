@@ -33,10 +33,6 @@ ul a{
 
 /*Header (There are two different styles of Header)*/
 
-header{
-  height: 150px;
-  margin-bottom: 20px;
-}
 
 header nav li{
   display: inline-block;
@@ -126,13 +122,46 @@ textarea{
 
 /*------------------INDEX ONLY STYLING-----------------*/
 
+.home{
+  background-image: url('images/helmet-bg.jpg');
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 99%;
+}
 
 .home-header{
   font-family: "octin-stencil", "sans-serif";
   font-weight: 700;
   font-style: normal;
-  font-size: 150px;
-  line-height: 150px;
+  font-size: 130px;
+  line-height: 130px;
+  margin-left: 50px;
+}
+
+#countdown{
+  font-family: "forma-djr-micro", "sans-serif";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+  float: left;
+}
+
+.countdown-sect h2{
+  float: right;
+  font-size: 100px;
+}
+
+.countdown-sect{
+  background: #706C6B;
+  height: 300px;
+  float: left;
+  width: 90%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin: 50px 0px;
+  padding: 30px 5px;
+  box-sizing: border-box;
+
 }
 
 .latest-pod{
@@ -175,7 +204,7 @@ textarea{
 .bio-heading{
   font-size: 100px;
   max-width: 70%;
-  margin: 0 auto;
+  margin: 0px auto;
 
 }
 
