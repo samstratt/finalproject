@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
   border: 0;
+}
+
+body{
   background-color: #080001;
   color: #FFFCFC;
 }
@@ -109,7 +112,7 @@ textarea{
 }
 
 .submit input{
-  background: #706C6B;
+  background: #EBE8E7;
   font-family: "forma-djr-micro", "sans-serif";
   font-weight: 700;
   font-style: normal;
@@ -139,6 +142,45 @@ textarea{
 
 
 /*------------------BIOS ONLY STYLING-----------------*/
+
+.bio-heading{
+  font-size: 100px;
+  max-width: 70%;
+  margin: 0 auto;
+
+}
+
+.manager-profile-container{
+  float:right;
+  width: 90%;
+  margin: 20px 0px;
+  height: 300px;
+}
+
+.test{
+  background: #EBE8E7;
+  color: #706C6B;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  width: 75%;
+  height: 250px;
+  margin-top: 50px;
+  padding-top: 30px;
+  float: right;
+  box-sizing: border-box;
+}
+
+.test h2, p{
+  color: #706C6B;
+  padding: 10px 30px;
+  line-height: 30px;
+}
+
+.bio-image{
+  width: 300px;
+  border-radius: 20px;
+  float: left;
+}
 
 
 /*------------------POD ONLY STYLING-----------------*/
