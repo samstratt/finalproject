@@ -127,8 +127,6 @@ textarea{
 /*------------------INDEX ONLY STYLING-----------------*/
 
 
-
-
 .home-header{
   font-family: "octin-stencil", "sans-serif";
   font-weight: 700;
@@ -136,6 +134,37 @@ textarea{
   font-size: 150px;
   line-height: 150px;
 }
+
+.latest-pod{
+  background: #FFFCFC;
+  height: 400px
+}
+
+.pod{
+  border-radius: 20px;
+  margin: 50px;
+  float: left;
+}
+
+.pod-copy{
+  background: #706C6B;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  width: 70%;
+  height: 300px;
+  margin: 50px 0px;
+  padding-top: 30px;
+  float: right;
+  box-sizing: border-box;
+}
+
+.pod-copy h2,
+.pod-copy p{
+  color: #FFFCFC;
+  padding: 10px 30px;
+  line-height: 30px;
+}
+
 
 
 /*------------------ABOUT ONLY STYLING-----------------*/
@@ -170,7 +199,8 @@ textarea{
   box-sizing: border-box;
 }
 
-.test h2, p{
+.test h2,
+.test p{
   color: #706C6B;
   padding: 10px 30px;
   line-height: 30px;
