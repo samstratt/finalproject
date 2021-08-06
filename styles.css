@@ -410,9 +410,9 @@ span{
 
 .podcast{
   background: #706C6B;
-  height: 550px;
+  height: 500px;
   border-radius: 20px;
-  width: 90%;
+  width: 80%;
   margin: 30px auto;
   box-shadow: 0px 0px 15px 0 rgba(0,0,0,0.4);
 }
@@ -428,10 +428,11 @@ span{
   border-radius: 20px;
   height: 200px;
   width: 80%;
-  margin: 50px 150px;
+  margin: 30px auto;
   padding-top: 15px;
   box-sizing: border-box;
   box-shadow: 0px 0px 15px 0 rgba(0,0,0,0.4);
+  display: block;
 }
 
 .button{
