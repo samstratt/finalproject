@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="https://use.typekit.net/otd6nzf.css">
+
 <style type="text/css" >
 *{
   margin: 0;
@@ -7,7 +9,6 @@
 
 body{
   background-color: #080001;
-  color: #FFFCFC;
 }
 
 h1, h2, h3, ul a{
@@ -43,7 +44,7 @@ li a:active{
   color: #BF061C;
 }
 
-/*Header (There are two different styles of Header)*/
+/*Header*/
 
 header{
   height:120px
@@ -63,22 +64,6 @@ header nav li{
   margin-right: 50px;
 }
 
-.main-nav-img{
-  margin: 50px;
-  float: right;
-}
-
-.main-nav-img li{
-  margin-left: 50px;
-}
-
-.header-logo{
-  vertical-align: middle;
-  max-width: 100px;
-  margin-left: 50px;
-  margin-top: 10px;
-}
-
 /*Footer*/
 
 footer{
@@ -93,48 +78,16 @@ footer{
   float: left;
 }
 
-form{
-  max-width: 600px;
-  height: 220px;
-  font-family: "forma-djr-micro", "sans-serif";
-  font-weight: 700;
-  font-style: normal;
-  color: #FFFCFC;
-  float: right;
-  margin: 20px 50px;
+
+.container{
+  background: #706C6B;
+  height: 500px;
+  border-radius: 20px;
+  width: 80%;
+  margin: 30px auto;
+  box-shadow: 0px 0px 15px 0 rgba(0,0,0,0.4);
 }
 
-.label-input-wrap{
-  display: block;
-  font-size: 30px;
-}
-
-textarea{
-  height:100px;
-  width: 500px;
-  background: #FFFCFC;
-  color: #080001;
-  border-radius: 10px;
-  margin: 5px 0px;
-  padding: 5px;
-  font-family: "forma-djr-micro", "sans-serif";
-  font-weight: 400;
-  font-style: normal;
-  font-size: 15px;
-
-}
-
-.submit input{
-  background: #EBE8E7;
-  font-family: "forma-djr-micro", "sans-serif";
-  font-weight: 700;
-  font-style: normal;
-  font-size: 25px;
-  color: #706C6B;
-  padding: 5px 10px;
-  border-radius: 10px;
-  float: right;
-}
 </style>
 
     <header>
@@ -152,9 +105,12 @@ textarea{
 
     <main>
 
-      <h1>Oh No!</h1>
+      <div class="container">
 
-      <p>Sorry, something went wrong! Please try submitting the form again.</p>
+        <h1>Oh No!</h1>
+
+        <p>Sorry, something went wrong! Please try submitting the form again.</p>
+      </div>
 
     </main>
 
@@ -168,20 +124,5 @@ textarea{
           <li><a href="pod.html">Podcast</a></li>
         </ul>
       </nav>
-
-      <form id="contact-us" name="contact-us" method="post" action="form.php" onsubmit="return validateForm(this)">
-        <div class="contact-us">
-
-          <label for="contact-us" class="label-input-wrap">Contact Us:</label>
-
-          <textarea name="contact" id="contact" placeholder="Include your name and email in your message..."></textarea>
-        </div>
-
-        <div class="submit">
-
-          <input type="submit" value="Send" />
-        </div>
-
-      </form>
 
     </footer>
