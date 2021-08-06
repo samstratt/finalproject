@@ -22,6 +22,8 @@ p{
   font-family: "forma-djr-micro", "sans-serif";
   font-weight: 400;
   font-style: normal;
+  color: #FFFCFC;
+  margin-top: 20px;
 }
 
 ul{
@@ -64,28 +66,16 @@ header nav li{
   margin-right: 50px;
 }
 
-/*Footer*/
-
-footer{
-  height: 220px;
-}
-
-.foot-nav{
-  font-size: 30px;
-  line-height: 50px;
-  margin:20px 50px;
-  height: 220px;
-  float: left;
-}
-
 
 .container{
   background: #706C6B;
-  height: 500px;
+  height: 100px;
   border-radius: 20px;
-  width: 80%;
-  margin: 30px auto;
+  width: 40%;
+  margin: auto;
   box-shadow: 0px 0px 15px 0 rgba(0,0,0,0.4);
+  padding: 50px 50px;
+  text-align: center;
 }
 
 </style>
@@ -122,16 +112,3 @@ footer{
       </div>
 
     </main>
-
-    <footer>
-
-      <nav>
-        <ul class="foot-nav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="bios.html">Bios</a></li>
-          <li><a href="pod.html">Podcast</a></li>
-        </ul>
-      </nav>
-
-    </footer>
