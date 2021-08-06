@@ -220,7 +220,46 @@ span{
 
 /*------------------ABOUT ONLY STYLING-----------------*/
 
+.about-heading{
+  font-size: 70px;
+  margin-top: 80px;
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
 
+
+.league-history{
+  background: #FFFCFC;
+  height: 540px;
+}
+
+.draft{
+  border-radius: 20px;
+  margin: 50px;
+  float: left;
+  box-shadow: 0px 0px 15px 0 rgba(0,0,0,0.4);
+}
+
+
+.about-copy{
+  background: #706C6B;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  width: 50%;
+  height: 450px;
+  margin: 50px 0px;
+  padding-top: 30px;
+  float: right;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 15px 0 rgba(0,0,0,0.4);
+}
+
+.about-copy h2,
+.about-copy p{
+  color: #FFFCFC;
+  padding: 10px 30px;
+  line-height: 30px;
+}
 
 
 /*------------------BIOS ONLY STYLING-----------------*/
@@ -229,7 +268,6 @@ span{
   font-size: 80px;
   margin-top: 80px;
   margin-left: 150px;
-
 }
 
 .manager-profile-container{
