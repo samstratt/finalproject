@@ -10,7 +10,7 @@ body{
   color: #FFFCFC;
 }
 
-h1, h2, ul a{
+h1, h2, h3, ul a{
   font-family: "forma-djr-micro", "sans-serif";
   font-weight: 700;
   font-style: normal;
@@ -27,7 +27,7 @@ ul{
   list-style-type: none;
 }
 
-ul a{
+a{
   text-decoration: none;
 }
 
@@ -380,7 +380,6 @@ span{
   box-shadow: 0px 0px 15px 0 rgba(0,0,0,0.4);
 }
 
-
 .about-pod-copy{
   background: #706C6B;
   border-top-left-radius: 20px;
@@ -407,4 +406,43 @@ span{
 
 .about-pod-copy p{
   font-size: 18px;
+}
+
+.podcast{
+  background: #706C6B;
+  height: 550px;
+  border-radius: 20px;
+  width: 90%;
+  margin: 30px auto;
+  box-shadow: 0px 0px 15px 0 rgba(0,0,0,0.4);
+}
+
+.podcast h2{
+  margin-left: 150px;
+  font-size: 50px;
+  padding-top: 50px;
+}
+
+.most-recent-pod{
+  background: #EBE8E7;
+  border-radius: 20px;
+  height: 200px;
+  width: 80%;
+  margin: 50px 150px;
+  padding-top: 15px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 15px 0 rgba(0,0,0,0.4);
+}
+
+.button{
+  background: #EBE8E7;
+  height: 50px;
+  width: 200px;
+  border-radius: 20px;
+  margin: 0px 150px;
+  font-size: 30px;
+  color: #706C6B;
+  box-shadow: 0px 0px 15px 0 rgba(0,0,0,0.4);
+  text-align: center;
+  padding-top: 15px;
 }
