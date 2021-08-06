@@ -73,13 +73,12 @@
         </ul>
       </nav>
 
-      <form id="contact-us" name="contact-us" action="index.html" method="post">
-
+      <form id="contact-us" name="contact-us" method="post" action="form.php" onsubmit="return validateForm(this)">
         <div class="contact-us">
 
           <label for="contact-us" class="label-input-wrap">Contact Us:</label>
 
-          <textarea name="contact" id="contact" placeholder="Type your message here..."></textarea>
+          <textarea name="contact" id="contact" placeholder="Include your name and email in your message..."></textarea>
         </div>
 
         <div class="submit">
