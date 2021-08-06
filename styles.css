@@ -33,6 +33,10 @@ ul a{
 
 /*Header (There are two different styles of Header)*/
 
+header{
+  height:120px
+}
+
 
 header nav li{
   display: inline-block;
@@ -48,7 +52,7 @@ header nav li{
 }
 
 .main-nav-img{
-  margin: 20px 50px;
+  margin: 50px;
   float: right;
 }
 
@@ -217,12 +221,14 @@ span{
 /*------------------ABOUT ONLY STYLING-----------------*/
 
 
+
+
 /*------------------BIOS ONLY STYLING-----------------*/
 
 .bio-heading{
-  font-size: 100px;
-  max-width: 70%;
-  margin: 0px auto;
+  font-size: 80px;
+  margin-top: 80px;
+  margin-left: 150px;
 
 }
 
@@ -230,7 +236,7 @@ span{
   float:right;
   width: 90%;
   margin: 20px 0px;
-  height: 300px;
+  height: 360px;
 }
 
 .test{
@@ -239,11 +245,12 @@ span{
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   width: 75%;
-  height: 250px;
+  height: 300px;
   margin-top: 50px;
   padding-top: 30px;
   float: right;
   box-sizing: border-box;
+  box-shadow: 0px 0px 15px 0 rgba(235,232,231,0.4);
 }
 
 .test h2,
@@ -253,10 +260,17 @@ span{
   line-height: 30px;
 }
 
+.test p{
+  font-size: 20px;
+}
+
 .bio-image{
   width: 300px;
   border-radius: 20px;
   float: left;
+  box-shadow: 0px 0px 15px 0 rgba(112,108,107,0.4);
+  margin-top: 50px;
+  box-sizing: border-box;
 }
 
 
