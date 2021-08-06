@@ -261,6 +261,46 @@ span{
   line-height: 30px;
 }
 
+.about-copy h2{
+  font-size: 30px;
+}
+
+.about-copy p{
+  font-size: 18px;
+}
+
+
+.wait-list-sect{
+  background: #EBE8E7;
+  color: #706C6B;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 35%;
+  height: 300px;
+  margin-top: 50px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 15px 0 rgba(235,232,231,0.4);
+}
+
+.wait-list-sect h2{
+  color: #706C6B;
+  padding: 30px 30px;
+  line-height: 10px;
+  font-size: 30px;
+  width: 60%;
+  margin-left: auto;
+
+}
+.wait-list-sect ol{
+  color: #706C6B;
+  line-height: 35px;
+  font-size: 20px;
+  font-family: "forma-djr-micro", "sans-serif";
+  font-weight: 400;
+  font-style: normal;
+  width: 60%;
+  margin-left: auto;
+}
 
 /*------------------BIOS ONLY STYLING-----------------*/
 
@@ -296,6 +336,10 @@ span{
   color: #706C6B;
   padding: 10px 30px;
   line-height: 30px;
+}
+
+.test h2{
+  font-size: 30px;
 }
 
 .test p{
