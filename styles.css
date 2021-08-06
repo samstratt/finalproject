@@ -117,7 +117,7 @@ textarea{
   font-weight: 700;
   font-style: normal;
   font-size: 25px;
-  color: #FFFCFC;
+  color: #706C6B;
   padding: 5px 10px;
   border-radius: 10px;
   float: right;
@@ -214,6 +214,10 @@ span{
   color: #FFFCFC;
   padding: 10px 30px;
   line-height: 30px;
+}
+
+.pod-copy p{
+  font-size: 20px;
 }
 
 
@@ -418,7 +422,8 @@ span{
 }
 
 .podcast h2{
-  margin-left: 150px;
+  width: 80%;
+  margin: 30px auto;
   font-size: 50px;
   padding-top: 50px;
 }
@@ -440,7 +445,7 @@ span{
   height: 50px;
   width: 200px;
   border-radius: 20px;
-  margin: 0px 150px;
+  margin-left: 120px;
   font-size: 30px;
   color: #706C6B;
   box-shadow: 0px 0px 15px 0 rgba(0,0,0,0.4);
