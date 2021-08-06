@@ -136,7 +136,14 @@ textarea{
   font-size: 130px;
   line-height: 130px;
   margin-left: 50px;
+  margin-bottom: 250px;
 }
+
+.countdown{
+  background: #080001;
+  height: 400px;
+}
+
 
 #countdown{
   font-family: "forma-djr-micro", "sans-serif";
@@ -144,35 +151,45 @@ textarea{
   font-style: normal;
   font-size: 70px;
   float: left;
+  margin: 75px 0px;
 }
 
 .countdown-sect h2{
   float: right;
   font-size: 100px;
+
+}
+
+span{
+  font-size: 140px;
+  line-height: 130px;
 }
 
 .countdown-sect{
   background: #706C6B;
   height: 300px;
   float: left;
-  width: 90%;
+  width: 92%;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   margin: 50px 0px;
-  padding: 30px 5px;
+  padding: 30px 15px;
   box-sizing: border-box;
+  box-shadow: 0px 0px 15px 0 rgba(112,108,107,0.4);
 
 }
 
 .latest-pod{
   background: #FFFCFC;
-  height: 400px
+  height: 400px;
+
 }
 
 .pod{
   border-radius: 20px;
   margin: 50px;
   float: left;
+  box-shadow: 0px 0px 15px 0 rgba(0,0,0,0.4);
 }
 
 .pod-copy{
@@ -185,6 +202,7 @@ textarea{
   padding-top: 30px;
   float: right;
   box-sizing: border-box;
+  box-shadow: 0px 0px 15px 0 rgba(0,0,0,0.4);
 }
 
 .pod-copy h2,
