@@ -31,6 +31,18 @@ a{
   text-decoration: none;
 }
 
+li a:hover{
+  color: #FF001E;
+}
+
+li a:active{
+  color: #BF061C;
+}
+
+.current{
+  color: #BF061C;
+}
+
 /*Header (There are two different styles of Header)*/
 
 header{
@@ -58,12 +70,13 @@ header nav li{
 
 .main-nav-img li{
   margin-left: 50px;
-
 }
 
 .header-logo{
   vertical-align: middle;
   max-width: 100px;
+  margin-left: 50px;
+  margin-top: 10px;
 }
 
 /*Footer*/
