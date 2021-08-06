@@ -153,7 +153,7 @@ textarea{
   font-family: "forma-djr-micro", "sans-serif";
   font-weight: 400;
   font-style: normal;
-  font-size: 70px;
+  font-size: 65px;
   float: left;
   margin: 75px 0px;
 }
@@ -357,3 +357,54 @@ span{
 
 
 /*------------------POD ONLY STYLING-----------------*/
+
+
+.about-pod-heading{
+  font-size: 100px;
+  margin-left: 50px;
+}
+
+.pod-setup{
+  width: 100%;
+}
+
+.about-pod{
+  background: #FFFCFC;
+  height: 568px;
+}
+
+.pod-hosts{
+  border-radius: 20px;
+  margin: 50px;
+  float: left;
+  box-shadow: 0px 0px 15px 0 rgba(0,0,0,0.4);
+}
+
+
+.about-pod-copy{
+  background: #706C6B;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  width: 50%;
+  height: 468px;
+  margin: 50px 0px;
+  padding-top: 30px;
+  float: right;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 15px 0 rgba(0,0,0,0.4);
+}
+
+.about-pod-copy h2,
+.about-pod-copy p{
+  color: #FFFCFC;
+  padding: 10px 30px;
+  line-height: 30px;
+}
+
+.about-pod-copy h2{
+  font-size: 30px;
+}
+
+.about-pod-copy p{
+  font-size: 18px;
+}
