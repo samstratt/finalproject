@@ -1,5 +1,9 @@
 <link rel="stylesheet" href="https://use.typekit.net/otd6nzf.css">
 
+<link rel="icon" type="image/ico" href="images/favicon.ico" />
+
+<link rel="icon" type="image/png" href="images/favicon.png" />
+
 <style type="text/css" >
 *{
   margin: 0;
