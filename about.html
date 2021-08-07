@@ -3,6 +3,8 @@
 
   <head>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-058EV31HP7"></script>
 <script>
@@ -13,9 +15,13 @@
   gtag('config', 'G-058EV31HP7');
 </script>
 
+    <script src="scripts/scripts.js" type="text/javascript"></script>
+
     <link rel="stylesheet" href="https://use.typekit.net/otd6nzf.css">
 
     <link rel="stylesheet" href="styles.css">
+
+    <link href="lightbox/src/css/lightbox.css" rel="stylesheet" />
 
     <meta charset="utf-8">
 
@@ -55,7 +61,7 @@
 
       <div class="league-history">
 
-          <img src="images/2019-draft.jpg" alt="2019 Bad Boyz Fantasy Football Draft" width="600px" class="draft"/>
+          <a href="images/2019-draft.jpg" data-lightbox="image-1" data-title="Draft Night is the Best Night!"><img src="images/2019-draft.jpg" alt="2019 Bad Boyz Fantasy Football Draft" width="600px" class="draft"/></a>
 
           <section class=about-copy>
 
@@ -115,6 +121,8 @@
       </form>
 
     </footer>
+
+    <script src="lightbox/src/js/lightbox.js"></script>
 
   </body>
 </html>
