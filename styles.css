@@ -134,7 +134,18 @@ textarea{
   padding: 5px 10px;
   border-radius: 10px;
   float: right;
+}
 
+.submit input:hover {
+  background: #FF001E;
+  color: #FFFCFC;
+}
+
+.submit input:active {
+  background: #FF001E;
+  color: #FFFCFC;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 /*------------------INDEX ONLY STYLING-----------------*/
